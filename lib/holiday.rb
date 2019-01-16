@@ -86,6 +86,8 @@ bbq_list = []
 holiday_hash.each do |season, holiday|
   holiday.each do |name, supply|
     supply.each do |name|
+      if supply == "BBQ"
+        
 
     puts #{name}
 end
